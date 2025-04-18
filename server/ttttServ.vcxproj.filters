@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cUsersControl.cpp">
+      <Filter>usersControl</Filter>
+    </ClCompile>
+    <ClCompile Include="cFormRequest.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Help">
+      <UniqueIdentifier>{e83f0223-59cd-44a0-8089-345c59e93c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usersControl">
+      <UniqueIdentifier>{3e99e330-d6a2-4a34-9750-03900ded942b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Help.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="cUsersControl.h">
+      <Filter>usersControl</Filter>
+    </ClInclude>
+    <ClInclude Include="cFormRequest.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
